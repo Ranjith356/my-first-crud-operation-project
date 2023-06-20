@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic platform</title>
+    <link rel="icon"
+        href="https://as2.ftcdn.net/v2/jpg/05/36/15/53/1000_F_536155393_V5TYw7kGGbdLJjzEmdH5cO3F50F65M8E.jpg"
+        type="image">
+    <link rel="stylesheet" href="/responsive/crud.css">
+</head>
+
+<body>
+    <table id="table1">
+        <tr>
+            <td>
+                <form id="design" autocomplete="off">
+                    <fieldset>
+                        <legend>PERSONAL</legend>
+                    <div>
+                        <label for="name">Name</label><br>
+                        <input type="text" id="name">
+                    </div>
+                    <div>
+                        <label for="adress">Address</label><br>
+                        <input type="text" id="adress">
+                    </div>
+                    <div>
+                        <label for="Age">Age</label><br>
+                        <input type="number" id="Age">
+                    </div>
+                    <div>
+                        <label for="Phone numbe"> Phone number</label><br>
+                        <input type="number" id="Phonenumbe" pattern="[0-9]{10}">
+                    </div>
+                    <div>
+                        <label for="Email">Email</label><br>
+                        <input type="email" id="Email">
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" id="submit"> 
+                         <input type="reset" id="reset">
+                    </div>
+                </fieldset>
+                </form>
+            </td>
+        </tr>
+    </table>
+    <td>
+        <table id="table2">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Address </th>
+                    <th>Age </th>
+                    <th>phone</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+<tbody id="table3">
+</tbody>
+        </table>
+    </td>
+
+<!-- <form id="desins" autocomplete="off">
+    <fieldset>
+            <legend>PERSONAL</legend>
+            <label for="names">Name</label><br>
+            <input type="text" id="names"><br>
+            <label for="adresses">Address</label><br>
+            <input type="text" id="adresses"><br>
+            <label for="Ages">Age</label><br>
+            <input type="number" id="Ages"><br>
+            <label for="Phonenumbers"> Phone number</label><br>
+            <input type="number" id="Phonenumbers" pattern="[0-9]{10}"><br>
+            <label for="Emails">Email</label><br>
+            <input type="email" id="Emails">
+           <input type="submit" id="sumbit">
+            <input type="reset" id="res"> 
+        </fieldset>
+    </form> 
+    <div id="msg"></div>
+ <div id="receiver"></div> -->
+ 
+<script src="/responsive/crud.js"></script>
+</body>
+
+</html>

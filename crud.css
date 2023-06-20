@@ -1,0 +1,42 @@
+
+body{
+   background-image: url(/responsive/pexels-photo-303383.jpeg);
+}
+#table1{
+width: 20%;
+height: 50%;
+margin-top: 10%;
+margin-left: 20%;
+color: white;
+}
+#table2{
+    margin-left: 20%;
+    margin-top:5%;
+    color: white;
+}
+#desins{
+    color: white; 
+}
+#receiver{
+    display: flex;
+    gap: 20px;
+    color: white;
+    flex-wrap: wrap;
+}
+#receiver div{
+    border: 3px solid white;
+    background-color:	#A9A9A9;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+#receiver div .option{
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+}
+#receiver div .option i{
+    cursor: pointer;
+}
+
